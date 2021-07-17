@@ -1,0 +1,147 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+/*  Globais  */
+*{
+    margin:0 ;
+    padding:0 !important;
+}
+/* Alterações no corpo */
+html,body{
+    height: 100%;
+}
+body{
+    background-color: rgb(177, 177, 5);
+
+}
+.center-2{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2%;
+}
+.itens a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: yellow;
+    position: relative;
+    
+}
+.ultimo{
+    min-width: 30px !important;
+}
+@media screen and (max-width: 750px){
+    header img{
+        float:right;
+    }
+}
+@media screen and (max-width:530px){
+    header img{
+        height: 110px; 
+        top: -5px;
+    }
+}
+.itens p{
+ color: black;
+}
+.ultimo{
+    width: 110px;
+}
+.itens{
+  margin-left: 5px;
+}
+/* header */
+
+header img{
+        width:70%;
+        max-width: 400px;
+        height: 150px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top:-20;      
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    min-height: 40px;
+    margin-bottom: 2%;
+}
+
+/* center */
+
+.center{
+    max-width: 1800px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+}
+
+section .box-1{
+    width: 700px;
+    height: 600px;
+    background-color: yellow;
+}
+.box-2{
+    width: 50%;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 2px;
+    border-top-left-radius: 20px;
+    max-width: 600px;
+
+}
+#img-2{
+    min-width: 300px;
+    width: 40%;
+    height: 37vh;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Castoro', serif;
+}
+p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Raleway';
+
+
+}
+span{
+    color:rgb(190, 154, 32);
+}
+.flex{
+    display: flex;
+}
+
+footer{
+    margin-top: 1%;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.caixa{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    padding: 2%;
+}
+@media screen and (max-width: 600px){
+    .flex{
+        flex-wrap: wrap;
+    }
+}
+.caixa p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+#img-3{
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2px;
+}
